@@ -137,7 +137,7 @@ a {
   height: 20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 578px) {
   .text-box {
     text-align: center;
   }
