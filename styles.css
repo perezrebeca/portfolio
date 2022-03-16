@@ -59,6 +59,12 @@ a {
   padding: 0;
 }
 
+.big-header {
+  color: #242b8a;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+}
 
 .project-box {
   padding: 5% 17%;
@@ -93,6 +99,7 @@ a {
   bottom: 5%;
 }
 
+/* Contact Section */
 #contact {
   background: conic-gradient(from 30deg at 33% 125%, rgba(32, 41, 137, 1), #67409a, rgba(120, 116, 155, 1), #b676a7, rgba(192, 204, 246, 1));
   padding: 5% 17%;
@@ -102,13 +109,6 @@ a {
   background-color: #EEEEEE;
   text-align: left;
   padding: 10%;
-}
-
-.big-header {
-  color: #242b8a;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: left;
 }
 
 .contact-text {
