@@ -74,6 +74,11 @@ hr {
 .big-header {
   font-size: 3rem;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.big-header:hover {
+  color: #000;
 }
 
 .project-box {
