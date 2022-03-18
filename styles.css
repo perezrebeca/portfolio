@@ -6,14 +6,6 @@ body {
   text-align: center;
 }
 
-h1 {}
-
-h2 {}
-
-h3 {}
-
-p {}
-
 hr {
   width: 75%;
   display: inline-block;
@@ -43,7 +35,7 @@ a {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 10% 7%;
 }
 
 .top-container {
@@ -55,8 +47,8 @@ a {
   color: #fff;
   text-align: left;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  left: 0;
+  bottom: 20%;
 }
 
 .title-header {
@@ -79,9 +71,8 @@ a {
 }
 
 .projects-title {
-  background-color: #eeee;
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
+  background-color: #fff;
+  color: #7797b2;
   padding: 5px;
 }
 
