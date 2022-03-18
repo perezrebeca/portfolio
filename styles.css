@@ -9,11 +9,6 @@ body {
 hr {
   width: 75%;
   display: inline-block;
-  padding-left: 5%;
-}
-
-a {
-  padding: 10px;
 }
 
 .top-logo {
@@ -31,7 +26,7 @@ a {
 
 /* Title Section */
 #title {
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #title .container-fluid {
@@ -81,16 +76,15 @@ a {
   font-weight: bold;
 }
 
-
 .project-box {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5% 7%;
-
 }
 
 .project-column {
-  padding: 0 1% 5%;;
+  padding: 0 1% 5%;
+  ;
 }
 
 .card {
@@ -99,7 +93,19 @@ a {
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  opacity: .75;
+}
+
+.card:hover .project-img{
+  opacity: .2;
+}
+
+.card:hover .project-text {
+  visibility: visible;
+}
+
+.project-text {
+  color: #fff;
+  visibility: hidden;
 }
 
 .description-text {
@@ -114,7 +120,8 @@ a {
 }
 
 #contact {
-  padding: 5% 12% 15%;;
+  padding: 5% 12%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-box {
@@ -127,6 +134,14 @@ a {
 .contact-text {
   color: #7797b2;
   font-size: 1.75rem;
+}
+
+.contact-logo {
+  color: #000;
+}
+
+.contact-logo:hover {
+  color: #7797b2;
 }
 
 .info-box {
@@ -147,7 +162,6 @@ a {
   font-size: 1.05rem;
 }
 
-
 /* Footer Section */
 .footer {
   height: 55px;
@@ -158,7 +172,7 @@ a {
 .footer-logo {
   float: left;
   height: 50px;
-  padding-top:5px;
+  padding-top: 5px;
 }
 
 .copyright-text {
@@ -188,11 +202,10 @@ a {
   .contact-text {
     text-align: center;
   }
-
 }
 
 @media (max-width: 990px) {
-  .contact-box  {
+  .contact-box {
     height: 375px;
   }
 
