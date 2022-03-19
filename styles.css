@@ -158,7 +158,7 @@ hr {
 .info-box {
   color: #000;
   font-size: 1rem;
-  padding: 25px;
+  padding: 20px;
   display: grid;
 }
 
@@ -201,6 +201,7 @@ hr {
   padding-top: 18px;
 }
 
+
 @media (max-width: 990px) {
   .navbar-toggler-icon {
     width: 100px;
@@ -212,7 +213,7 @@ hr {
   }
 
   .top-container {
-    height: 500px;
+    height: 700px;
   }
 
   .title-header {
@@ -245,7 +246,7 @@ hr {
   }
 
   .contact-box {
-    height: 400px;
+    height: 500px;
   }
 
   .email-link {
