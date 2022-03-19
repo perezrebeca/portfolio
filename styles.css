@@ -69,25 +69,25 @@ hr {
   padding: 10% 5%;
 }
 
-.projects-title {
-  color: #7797b2;
-  padding: 5% 15%;
-  text-align: left;
-}
-
-.projects-description {
-  color: #000;
-}
-
-.project-box {
+.project-container {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5% 7%;
 }
 
+.projects-title-box {
+  color: #7797b2;
+  padding: 5% 15%;
+  text-align: left;
+}
+
 .big-header {
   font-size: 2.5rem;
   font-weight: 500;
+}
+
+.projects-description {
+  color: #000;
 }
 
 .project-link {
@@ -99,9 +99,7 @@ hr {
   color: #000;
 }
 
-.project-column {}
-
-.card {
+.project-column {
   margin-top: 5%;
 }
 
@@ -110,7 +108,7 @@ hr {
 }
 
 .card:hover .project-img {
-  opacity: .1;
+  opacity: .05;
 }
 
 .card:hover .project-text {
@@ -166,6 +164,7 @@ hr {
 
 .email-link {
   color: #000;
+  font-size: 1.25rem;
   text-decoration: none;
   padding-bottom: 10px;
 }
@@ -202,9 +201,36 @@ hr {
   padding-top: 18px;
 }
 
-
-
 @media (max-width: 990px) {
+  .navbar-toggler-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar-nav {
+    font-size: 2rem;
+  }
+
+  .title-header {
+    font-size: 5.5rem;
+  }
+
+  .title-text {
+    font-style: 3.5rem;
+  }
+
+  .big-header {
+    font-size: 3.5rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .description-text {
+    font-size: 1.5rem;
+  }
+
   .contact-title {
     text-align: center;
     font-size: 3rem;
@@ -218,8 +244,8 @@ hr {
     height: 375px;
   }
 
-  .navbar-toggler-icon {
-    width: 100px;
-    height: 100px;
+  .email-link {
+    font-size: 1.5rem;
   }
+
 }
