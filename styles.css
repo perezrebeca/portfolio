@@ -33,7 +33,7 @@ hr {
 }
 
 #title .container-fluid {
-  padding: 3% 10% 7%;
+  padding: 5% 10%;
 }
 
 .top-container {
@@ -88,6 +88,7 @@ hr {
 
 .projects-description {
   color: #000;
+  font-size: 1.3rem;
 }
 
 .project-link {
@@ -132,6 +133,7 @@ hr {
   bottom: 5%;
 }
 
+
 #contact {
   padding: 5% 12%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -157,7 +159,7 @@ hr {
 
 .info-box {
   color: #000;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: 20px;
   display: grid;
 }
@@ -182,6 +184,7 @@ hr {
   color: #7797b2;
 }
 
+
 /* Footer Section */
 .footer {
   height: 55px;
@@ -196,7 +199,7 @@ hr {
 }
 
 .copyright-text {
-  font-size: .8rem;
+  font-size: 1rem;
   text-align: right;
   padding-top: 18px;
 }
@@ -246,7 +249,7 @@ hr {
   }
 
   .contact-box {
-    height: 500px;
+    height: 440px;
   }
 
   .email-link {
