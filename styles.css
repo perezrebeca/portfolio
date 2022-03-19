@@ -211,6 +211,10 @@ hr {
     font-size: 2rem;
   }
 
+  .top-container {
+    height: 500px;
+  }
+
   .title-header {
     font-size: 5.5rem;
   }
@@ -241,7 +245,7 @@ hr {
   }
 
   .contact-box {
-    height: 375px;
+    height: 400px;
   }
 
   .email-link {
