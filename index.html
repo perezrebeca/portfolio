@@ -19,7 +19,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 </head>
 
@@ -61,10 +61,10 @@
         <div class="text-box">
           <h1 class="title-header">Rebeca Perez</h1>
           <p class="title-text">Front-End Web Developer based in California.</p>
-          <i class="icon fa-brands fa-html5 fa-2x"></i>
-          <i class="icon fa-brands fa-css3 fa-2x"></i>
-          <i class="icon fa-brands fa-bootstrap fa-2x"></i>
-          <i class="icon fa-brands fa-js fa-2x"></i>
+          <i class="skills-icon fa-brands fa-html5 fa-2x"></i>
+          <i class="skills-icon fa-brands fa-css3 fa-2x"></i>
+          <i class="skills-icon fa-brands fa-bootstrap fa-2x"></i>
+          <i class="skills-icon fa-brands fa-js fa-2x"></i>
         </div>
       </div>
 
@@ -76,17 +76,23 @@
   <!-- Projects -->
   <section id="projects">
     <div class="container-fluid">
-
       <div class="project-box">
+
+        <hr>
+        <div class="projects-title">
+          <h2 class="big-header">Recent Work</h2>
+          <p class="projects-description">Experienced in creating responsive websites in HTML, CSS, JavaScript and familiar with some frameworks - Bootstrap, Node.js. High attention to detail, well-organized and can create pixel perfect websites.
+            <a class="project-link" href="https://github.com/perezrebeca?tab=repositories">Check out my work here.</a>
+          </p>
+        </div>
+        <hr>
+
         <div class="card-deck">
-          <div class="projects-title">
-            <h2 class="big-header">My Recent Work</h2></a>
-          </div>
-          <hr />
+
           <div class="row">
             <div class="project-column col-lg-12 col-md-12">
               <div class="card bg-dark text-white">
-                  <img class="project-img card-img-top" src="images/tindog.png" alt="tindog website">
+                <img class="project-img card-img-top" src="images/tindog.png" alt="tindog website">
                 <div class="project-text card-img-overlay">
                   <h5 class="card-title">tindog Landing Page</h5>
                   <p class="description-text card-text">Simple responsive landing page using bootstrap and media queries.</p>
@@ -97,9 +103,7 @@
 
             <div class="project-column col-lg-6 col-md-12">
               <div class="card bg-dark text-white">
-                <a href="https://github.com/perezrebeca/Simon-Game">
-                  <img class="project-img card-img-top" src="images/simon-game.png" alt="simon-game website">
-                </a>
+                <img class="project-img card-img-top" src="images/simon-game.png" alt="simon-game website">
                 <div class="project-text card-img-overlay">
                   <h5 class="card-title">Simon Game</h5>
                   <p class="description-text card-text">A simon like game that provides a pattern, which the user repeats from memory leveling up until incorrect.</p>
@@ -111,9 +115,7 @@
 
             <div class="project-column col-lg-6 col-md-12">
               <div class="card bg-dark text-white">
-                <a href="https://github.com/perezrebeca/Dice-Game.git">
-                  <img class="project-img card-img-top" src="images/dice.png" alt="dice website">
-                </a>
+                <img class="project-img card-img-top" src="images/dice.png" alt="dice website">
                 <div class="project-text card-img-overlay">
                   <h5 class="card-title">Dice Game</h5>
                   <p class="description-text card-text">The program displays a random dice roll and displays which player won with the highest roll.</p>
@@ -124,9 +126,8 @@
           </div>
 
         </div>
-        <hr />
+        <hr/>
       </div>
-
     </div>
   </section>
 
@@ -140,12 +141,13 @@
         <div class="col-lg-6">
           <h2 class="big-header">Contact Me</h2>
           <h2 class="contact-text">Let's work together.</h2>
-          <a class="contact-logo" href="https://github.com/perezrebeca?tab=repositories"><i class="fa-brands fa-github fa-2x"></i></a>
+          <hr class="footer-hr">
         </div>
 
         <div class="info-box col-lg-6">
-          <p>Email: <a class="email-link" href="mailto: perezrebeca210@gmail.com">perezrebeca210@gmail.com</a></p>
-          <p>Located: Sonoma County, CA</p>
+          <a class="email-link" href="mailto: perezrebeca210@gmail.com">perezrebeca210@gmail.com</a>
+          <p>Located in Sonoma County, CA</p>
+          <a class="project-link" href="https://github.com/perezrebeca?tab=repositories"><i class="fa-brands fa-github fa-2x"></i></a>
         </div>
 
       </div>
@@ -154,7 +156,7 @@
   </section>
 
   <div class="footer">
-    <img class="footer-logo" src="images/logo.png" alt="reb-dev">
+    <a href="#"><img class="footer-logo" src="images/logo.png" alt="reb-dev"></a>
     <p class="copyright-text">COPYRIGHT © 2022 - All Rights Reserved.</p>
   </div>
 
