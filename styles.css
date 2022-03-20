@@ -140,7 +140,6 @@ hr {
 
 .contact-box {
   background-color: #fff;
-  height: 275px;
   padding: 7% 10%;
 }
 
@@ -201,11 +200,4 @@ hr {
   font-size: 1rem;
   text-align: right;
   padding-top: 18px;
-}
-
-
-@media (max-width: 990px) {
-  .contact-box {
-    height: 430px;
-  }
 }
