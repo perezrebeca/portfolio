@@ -1,8 +1,5 @@
 body {
-  background-image: url("images/cool-colors.jpg");
-  background-size: cover;
-  height: 100%;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   margin: 0;
 }
@@ -13,9 +10,10 @@ hr {
   border: 3px solid #7797b2;
 }
 
+
 /* Nav Bar */
 .top-logo {
-  height: 100px;
+  height: 75px;
 }
 
 .navbar {
@@ -27,9 +25,11 @@ hr {
   padding-left: 50px;
 }
 
+
 /* Title Section */
 #title {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px -8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(20deg, #000000 0%, #171d30 35%, #556285 100%);
 }
 
 #title .container-fluid {
@@ -39,30 +39,32 @@ hr {
 .top-container {
   height: 500px;
   position: relative;
+
 }
 
 .text-box {
   color: #fff;
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 10%;
+
 }
 
 .title-header {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .title-text {
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .skills-icon {
   padding: 0 5px;
 }
+
 
 /* Projects Section */
 #projects .container-fluid {
@@ -133,14 +135,16 @@ hr {
 }
 
 
+/* Contact Section */
 #contact {
   padding: 5% 12%;
+  background: linear-gradient(20deg, #000000 0%, #171d30 35%, #556285 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-box {
-  background-color: #fff;
   padding: 7% 10%;
+  color: #fff;
 }
 
 .contact-text {
@@ -152,18 +156,18 @@ hr {
   width: 25%;
   border-style: dotted none none;
   border-width: 10px;
-  background-color: #fff;
+  background-color: inherit;
 }
 
 .info-box {
-  color: #000;
+  color: #fff;
   font-size: 1.25rem;
   padding: 20px;
   display: grid;
 }
 
 .email-link {
-  color: #000;
+  color: #fff;
   font-size: 1.25rem;
   text-decoration: none;
   padding-bottom: 10px;
@@ -186,7 +190,6 @@ hr {
 /* Footer Section */
 .footer {
   height: 55px;
-  background-color: #fff;
   padding: 0 5%;
 }
 
@@ -200,4 +203,14 @@ hr {
   font-size: 1rem;
   text-align: right;
   padding-top: 18px;
+}
+
+
+@media (max-width: 900px;) {
+  .text-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }
